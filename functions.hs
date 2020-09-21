@@ -1,6 +1,6 @@
--- creando este modulo donde tiene este contenido
-module Functions where
 
+
+module Test where
 
 -- Funciones toman parametros que ejecutan una porcion de codigo tomando
 -- argumentos y devuelven un valor
@@ -13,14 +13,18 @@ module Functions where
 -- Toma entero
 -- Devuelve un enetero
 
-
-division :: Int -> Int -> Int 
+-- definicion
+division :: Int -> Int -> Int
 division x y = x `div` y
-
+-- ejecutar la funcion
+-- division 10 2
 
 cuadrado :: Int -> Int
 cuadrado x  = x * x
 
+
+suma :: Int -> Int -> Int
+suma x y = x + y
 
 -- 3 tipos de funciones
 -- Prfijas antes del argumento
@@ -31,3 +35,6 @@ cuadrado x  = x * x
 -- Posfija 
 -- 2 cuadrado
 -- Se escribe despues de los operandos
+
+
+
